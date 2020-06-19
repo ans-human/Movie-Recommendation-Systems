@@ -6,7 +6,7 @@ In this notebook, I have built 4 different recommendation engines based on diffe
 - **Collaborative Filtering**: We used the powerful Surprise Library to build a collaborative filter based on single value decomposition. The RMSE obtained was less than 1 and the engine gave estimated ratings for a given user and movie.
 - **Hybrid Engine**: We brought together ideas from content and collaborative filterting to build an engine that gave movie suggestions to a particular user based on the estimated ratings that it had internally calculated for that user.
 
-### Dataset
+## Dataset
 This dataset is an ensemble of data collected from TMDB and GroupLens.
 It consists of the following files:
 
